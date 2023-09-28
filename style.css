@@ -1,0 +1,49 @@
+html {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div {
+    background-color: lightslategray;
+}
+
+#premiere {
+    background-image: url('images.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 1000px 400px;
+}
+
+#deuxieme {
+    background-color: lightseagreen;
+}
+#footer {
+    background-color: lightslategray;
+}
+
+* {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+    width:90%;
+}
+
+#header, #footer {
+    height: 60px;
+    display: flex;/*la boite devient flexible*/
+    justify-content: center; /* permet de repartir sur la largeur*/
+    align-items: center; /* permet repartir sur la hauteur */
+
+
+
+}
+
+#premiere, #deuxieme {
+    height: 400px;
+    display: flex;/*la boite devient flexible*/
+    justify-content: center; /* permet de repartir sur la largeur*/
+    align-items: center; /* permet repartir sur la hauteur */
+}
+
+
+ 
